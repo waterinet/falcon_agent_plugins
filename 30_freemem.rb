@@ -3,11 +3,7 @@
 require 'json'
 
 def main
-	loop {
-		puts "[" + get_memfree + "]"
-		sleep 30
-	}
-
+    puts "[" + get_memfree + "]"
 end
 
 class AgentData
